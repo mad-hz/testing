@@ -1,9 +1,12 @@
 <?php
 
-use App\Models\Permission;
 use App\Models\Role;
 use App\Models\User;
+use App\Models\Permission;
 use function Pest\Laravel\{actingAs, seed};
+use Illuminate\Foundation\Testing\RefreshDatabase;
+
+uses(RefreshDatabase::class);
 
 beforeEach(function () {
     seed();
