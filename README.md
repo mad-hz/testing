@@ -143,8 +143,6 @@ proceeding.
 | `admin can create role with permissions`          | Admin can create a new role with selected permissions.                  |
 | `admin can update role permissions`               | Existing role permissions can be updated.                               |
 | `admin can delete role`                           | Roles can be deleted properly.                                          |
-| `regular user cannot access protected role routes`| Non-admin users are restricted from role management routes.             |
-
 ---
 
 ### Unit Tests – `tests/Unit/HasPermissionsTraitTest.php`

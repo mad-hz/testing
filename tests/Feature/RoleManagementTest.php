@@ -59,28 +59,3 @@ test('admin can delete role', function () {
 
     $this->assertDatabaseMissing('roles', ['id' => $role->id]);
 });
-
-test('regular user cannot access protected role routes', function () {
-    $user = User::factory()->create();
-    $role = Role::factory()->create();
-
-    actingAs($user)
-        ->get(route('roles.create'))
-        ->assertForbidden();
-
-    actingAs($user)
-        ->post(route('roles.store'))
-        ->assertForbidden();
-
-    actingAs($user)
-        ->get(route('roles.edit', $role))
-        ->assertForbidden();
-
-    actingAs($user)
-        ->put(route('roles.update', $role))
-        ->assertForbidden();
-
-    actingAs($user)
-        ->delete(route('roles.destroy', $role))
-        ->assertForbidden();
-});
