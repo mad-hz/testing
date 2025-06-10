@@ -1,4 +1,4 @@
-# **First User Story** 
+<img width="1470" alt="Screenshot 2025-06-10 at 20 58 39" src="https://github.com/user-attachments/assets/3b2c6014-ee70-4418-a8e3-b8f4034f42b8" /># **First User Story** 
 
 ### User Story:
 As an employee, I want to mention other colleagues using their usernames, so they are notified
@@ -157,7 +157,7 @@ proceeding.
 ---
 
 ## Screenshots
-<img width="1470" alt="Screenshot 2025-06-10 at 19 12 57" src="https://github.com/user-attachments/assets/a3942455-d34f-453b-a7c5-b00c337f42b2" />
+<img width="1470" alt="Screenshot 2025-06-10 at 20 58 39" src="https://github.com/user-attachments/assets/b47d6636-e4ee-41c9-b320-b56a56f24a28" />
 
 ---
 
