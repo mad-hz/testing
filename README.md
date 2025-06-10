@@ -1,4 +1,4 @@
-**First User Story** 
+# **First User Story** 
 
 ### User Story:
 As an employee, I want to mention other colleagues using their usernames, so they are notified
@@ -64,6 +64,7 @@ These are pure logic tests — no database, no Laravel services — just checkin
 ---
 
 ## Screenshots
+<img width="1470" alt="Screenshot 2025-06-10 at 09 49 44" src="https://github.com/user-attachments/assets/2d7648a3-5cd5-40c4-97cf-bff141411291" />
 
 ---
 
@@ -93,7 +94,7 @@ In conclusion: the backend logic is solid, but testing the frontend behavior is 
 
 ---
 
-**Second User Story** 
+# **Second User Story** 
 
 ### User Story
 As an admin, I want to define roles with specific permissions so that different employees can
@@ -157,7 +158,12 @@ proceeding.
 
 ---
 
-## Testing Summary
+## Screenshots
+<img width="1470" alt="Screenshot 2025-06-10 at 19 12 57" src="https://github.com/user-attachments/assets/a3942455-d34f-453b-a7c5-b00c337f42b2" />
+
+---
+
+## Testing Overview
 
 ### What I Have Tested
 - Creating, updating, and deleting roles by admins.
