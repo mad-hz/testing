@@ -11,7 +11,8 @@ uses(RefreshDatabase::class);
 beforeEach(function () {
     seed();
 
-    $this->admin = User::factory()->create(['id' => 1]);
+    // $this->admin = User::factory()->create(['id' => 1]);
+    $this->admin = User::where('email', 'test@example.com')->first();
 
     $role = Role::where('name', 'admin')->first();
     $this->admin->roles()->sync($role);
